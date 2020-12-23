@@ -6,14 +6,16 @@ class Header extends React.Component {
     render(){
         return( 
         
-            <header style={styles.header}>
-                <div style={styles.logo}> Logo </div>
+            <header>
+                <div> Logo </div>
                 <input/>
             </header>
 
         )
     }
 }
+
+/*
 
 let styles ={
     header:{
@@ -27,3 +29,13 @@ let styles ={
 }
 export default Header;
 
+const Header = () => {
+return(
+    <div>
+
+    </div>
+)
+*/
+
+
+export default Header;
