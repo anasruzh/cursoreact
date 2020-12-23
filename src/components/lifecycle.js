@@ -18,6 +18,10 @@ class Life extends Component{
         console.log('5-componentWillUnmount');
     }
 
+    shouldComponentUpdate(){
+        console.log('6-shouldComponentUpdate');
+        return  true;
+    }
     
     render(){
         console.log('3-render');
